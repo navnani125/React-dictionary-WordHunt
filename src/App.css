@@ -1,0 +1,23 @@
+.App{
+    background-color: #282c34;
+    color: white;
+    height:102vh;
+}
+.Dark{
+    background-color: white;
+    color: black;
+    transition:all 0.5s ease;
+}
+#container{
+    padding: 15x;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    height: 102vh;
+}
+.colorMode{
+    position: absolute;
+    top: 3px;
+    right:15px;
+    padding-top: 10px;
+}

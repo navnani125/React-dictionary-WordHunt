@@ -1,0 +1,43 @@
+.title{
+    font-size:7vw;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow:
+    0 0 2px #fff,
+    0 0 6px #fff;
+}
+.title_light{
+    font-size:7vw;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow:
+    0 0 2px #000,
+    0 0 6px #000;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 35vh;
+    width: 100%;
+}
+@media(max-width:900px){
+    .header{
+        justify-content: space-evenly;
+        height: 25vh;
+    }
+    .title{
+        font-size:11vw;
+        ;
+    }
+}
+.inputs{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+
+}
+.search, .select_language{
+   width:43%;
+}
